@@ -26,7 +26,7 @@ config/routes.ts          # 业务路由与菜单
 config/platform.ts        # 平台名称、Logo、代理和登录文案
 src/app.tsx               # 初始化、布局和请求拦截
 src/access.ts             # 权限码转换
-src/pages/welcome         # 框架首页
+src/pages/home            # 行情首页（/info）
 src/pages/admin           # 账户管理
 src/pages/settings        # 个人设置
 src/pages/mobile          # 移动端页面

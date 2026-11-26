@@ -17,7 +17,7 @@ import redirect from 'frame/global/redirect';
  * 以下页面不需要进行重定向和 info 数据请求
  * */
 const validateAuthBeforeNonLoginRoutes = () => {
-  const PATHS = new Set(['/', '/login', '/m/scan', '/welcome']);
+  const PATHS = new Set(['/', '/login', '/m/scan', '/info']);
   return !PATHS.has(location.pathname);
 };
 
@@ -130,7 +130,7 @@ export const layout = ({ initialState }) => {
     },
     // 点击页面左上角的 title 区域时，会触发
     onMenuHeaderClick: () => {
-      history.replace(platformStorage.get().redirect || '/welcome');
+      history.replace(platformStorage.get().redirect || '/info');
     },
     // 自定义内容
     childrenRender: (Com) => {

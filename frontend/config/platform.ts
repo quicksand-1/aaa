@@ -10,7 +10,7 @@ export default [
     key: 'default',
     name: '业务工作台',
     proxy: '/api',
-    redirect: '/welcome',
+    redirect: '/info',
     login: {
       name: '业务工作台',
       description: '通用业务管理平台',

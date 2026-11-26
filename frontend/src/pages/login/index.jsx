@@ -7,7 +7,7 @@ import platformStorage from 'frame/global/platformStorage';
 import redirect from 'frame/global/redirect';
 
 const MOBILE_LOGIN_PATH = '/m/home';
-const DESKTOP_LOGIN_PATH = '/welcome';
+const DESKTOP_LOGIN_PATH = '/info';
 
 const BrandMark = ({ logo, compact = false }) => (
   <span

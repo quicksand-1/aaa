@@ -13,7 +13,7 @@ const routers = [
   },
   {
     layout: false,
-    path: '/welcome',
+    path: '/info',
     name: '首页',
     component: './home',
   },
