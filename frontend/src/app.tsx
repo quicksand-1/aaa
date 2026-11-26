@@ -17,7 +17,7 @@ import redirect from 'frame/global/redirect';
  * 以下页面不需要进行重定向和 info 数据请求
  * */
 const validateAuthBeforeNonLoginRoutes = () => {
-  const PATHS = new Set(['/', '/login', '/m/scan']);
+  const PATHS = new Set(['/', '/login', '/m/scan', '/welcome']);
   return !PATHS.has(location.pathname);
 };
 
