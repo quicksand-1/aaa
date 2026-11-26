@@ -1,10 +1,11 @@
 import { Modal } from 'antd';
 import { request } from 'fintech';
-import redirect from 'frame/global/redirect';
 
 export function logout() {
-  redirect.noLogin();
-  return request('/logout.json', { method: 'GET' });
+  return request('/logout.json', { method: 'GET' }).then(() => {
+    // 退出后回到公开首页；整页跳转保证 initialState 里的登录态被重新拉取
+    window.location.replace('/info');
+  });
 }
 
 export function confirmLogout() {
