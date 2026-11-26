@@ -12,9 +12,10 @@ const routers = [
     component: './login',
   },
   {
+    layout: false,
     path: '/welcome',
-    name: '工作台首页',
-    component: './welcome',
+    name: '首页',
+    component: './home',
   },
   {
     path: '/admin',

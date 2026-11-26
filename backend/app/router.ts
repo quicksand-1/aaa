@@ -6,6 +6,8 @@ export default (app: Application) => {
   const requireAdmin = (app.middleware as any).requireAdmin();
 
   router.get('/api/health', controller.health.index);
+  // 首页行情是公开数据，不挂鉴权中间件
+  router.get('/api/market/overview.json', controller.market.overview);
   router.post('/api/login.json', controller.auth.login);
   router.get('/api/logout.json', controller.auth.logout);
   router.get('/api/system/user/info.json', auth, controller.auth.info);
