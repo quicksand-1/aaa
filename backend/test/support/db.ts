@@ -1,6 +1,7 @@
 import { Application } from 'egg';
 
 const TABLES = [
+  'market_snapshots',
   'user_identities',
   'mobile_login_tickets',
   'sessions',
