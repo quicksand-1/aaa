@@ -5,7 +5,7 @@ import {
   ArrowUpOutlined,
   ClockCircleOutlined,
 } from '@ant-design/icons';
-import { history } from '@umijs/max';
+import { history, useModel } from '@umijs/max';
 import { request } from 'fintech';
 import platformStorage from 'frame/global/platformStorage';
 import PageHeader from '@/components/PageHeader';
@@ -74,6 +74,8 @@ export default () => {
   const [data, setData] = useState({ marketData: [] });
   const [failed, setFailed] = useState(false);
   const { name } = platformStorage.get();
+  const { initialState } = useModel('@@initialState');
+  const currentUser = initialState?.currentUser;
 
   useEffect(() => {
     let active = true;
@@ -121,20 +123,28 @@ export default () => {
           {name || '行情看板'}
         </span>
         <Flex gap={16} align="center" className="text-xs">
-          <button
-            type="button"
-            className="cursor-pointer border-0 bg-transparent p-0 text-slate-500 hover:text-slate-900"
-            onClick={() => history.push('/admin')}
-          >
-            工作台
-          </button>
-          <button
-            type="button"
-            className="cursor-pointer border-0 bg-transparent p-0 text-slate-500 hover:text-slate-900"
-            onClick={() => history.push('/login')}
-          >
-            登录
-          </button>
+          {currentUser?.account ? (
+            <>
+              <span className="max-w-[140px] truncate text-slate-500">
+                {currentUser.name || currentUser.account}
+              </span>
+              <button
+                type="button"
+                className="cursor-pointer border-0 bg-transparent p-0 text-slate-500 hover:text-slate-900"
+                onClick={() => history.push('/admin')}
+              >
+                工作台
+              </button>
+            </>
+          ) : (
+            <button
+              type="button"
+              className="cursor-pointer border-0 bg-transparent p-0 text-slate-500 hover:text-slate-900"
+              onClick={() => history.push('/login')}
+            >
+              登录
+            </button>
+          )}
         </Flex>
       </header>
 

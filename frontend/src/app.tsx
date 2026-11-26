@@ -21,6 +21,11 @@ const validateAuthBeforeNonLoginRoutes = () => {
   return !PATHS.has(location.pathname);
 };
 
+/**
+ * 公开页里只有 /info 要展示登录态，/login 等页面不必多发一次用户信息请求
+ * */
+const PUBLIC_PATHS_WITH_USER = new Set(['/info']);
+
 // 平台数据初始化
 platformStorage.init();
 const { name, logo, proxy, copyright, watermark } = platformStorage.get();
@@ -30,7 +35,10 @@ const { name, logo, proxy, copyright, watermark } = platformStorage.get();
  * @url: https://next.umijs.org/docs/api/runtime-config#getinitialstate
  * */
 export async function getInitialState(): Promise<any> {
-  if (!validateAuthBeforeNonLoginRoutes()) {
+  if (
+    !validateAuthBeforeNonLoginRoutes() &&
+    !PUBLIC_PATHS_WITH_USER.has(location.pathname)
+  ) {
     return { currentUser: {} };
   }
 
@@ -40,7 +48,10 @@ export async function getInitialState(): Promise<any> {
     });
     return { currentUser: res?.data || {} };
   } catch {
-    redirect.noLogin();
+    // 公开页未登录是正常情况，只需要不展示账户信息，不跳登录页
+    if (validateAuthBeforeNonLoginRoutes()) {
+      redirect.noLogin();
+    }
     return { currentUser: {} };
   }
 }
