@@ -1,0 +1,100 @@
+{
+  "name": "fintech",
+  "version": "1.0.5",
+  "description": "基于 antd@6 封装的组件，减少项目中的样板代码，封装常用逻辑",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "es/index.d.ts",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "scripts": {
+    "build": "father build",
+    "build:publish": "npm build && npm publish",
+    "build:watch": "father dev",
+    "dev": "dumi dev",
+    "docs:build": "dumi build",
+    "doctor": "father doctor",
+    "format": "prettier --cache --write .",
+    "lint": "npm run lint:es && npm run lint:css",
+    "lint:css": "stylelint \"{components,test}/**/*.{css,less}\"",
+    "lint:es": "eslint \"{components,test}/**/*.{js,jsx,ts,tsx}\"",
+    "prepare": "husky install && dumi setup",
+    "prepublishOnly": "father doctor && npm run build",
+    "start": "PORT=3000 npm run dev",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "*.{md,json}": [
+      "prettier --write --no-error-on-unmatched-pattern"
+    ],
+    "*.{css,less}": [
+      "stylelint --fix",
+      "prettier --write"
+    ],
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@umijs/lint": "^4.0.0",
+    "@vitest/coverage-v8": "^4.1.8",
+    "babel-plugin-antd-style": "^1.0.4",
+    "babel-plugin-import": "^1.13.8",
+    "dumi": "2.4.21",
+    "eslint": "^8.23.0",
+    "father": "^4.1.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "prettier-plugin-organize-imports": "^3.0.0",
+    "prettier-plugin-packagejson": "^2.2.18",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "stylelint": "^14.9.1",
+    "vitest": "^4.1.8"
+  },
+  "peerDependencies": {
+    "@ant-design/icons": ">=6.1.1",
+    "@ant-design/plots": ">=2.4.0",
+    "@ant-design/pro-components": ">=3.1.12-0",
+    "@ant-design/x": "2.5.0",
+    "@ant-design/x-markdown": "2.5.0",
+    "@umijs/max": ">=4.6.40",
+    "antd": ">=6.3.5",
+    "antd-style": "3.6.2",
+    "dayjs": ">=1.11.11",
+    "immutability-helper": "3.1.1",
+    "page-agent": ">=1.6.0",
+    "react": ">=18.0.0",
+    "react-dnd": "16.0.1",
+    "react-dnd-html5-backend": "16.0.1",
+    "react-dom": ">=18.0.0",
+    "sm-crypto": ">=0.3.13"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "authors": [
+    "陈龙",
+    "long.chen@abssqr.com"
+  ]
+}

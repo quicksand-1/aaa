@@ -1,0 +1,19 @@
+[Unit]
+Description=Business Workbench Backend
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/file/business-workbench/backend
+Environment=NODE_ENV=production
+ExecStart=/usr/local/bin/npm start
+Restart=always
+RestartSec=5
+TimeoutStopSec=30
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ReadWritePaths=/file/business-workbench/backend/logs /file/business-workbench/backend/run /file/business-workbench/backend/storage
+
+[Install]
+WantedBy=multi-user.target

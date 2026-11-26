@@ -1,0 +1,1 @@
+export { booksCapability } from './definition';

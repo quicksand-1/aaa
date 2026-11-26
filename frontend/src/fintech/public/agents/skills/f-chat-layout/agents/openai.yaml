@@ -1,0 +1,4 @@
+interface:
+  display_name: "F Chat Layout"
+  short_description: "规范 Xsender 与 Xmessages 聊天面板高度和滚动布局"
+  default_prompt: "使用 $f-chat-layout 创建或修复基于 Xsender 与 Xmessages 的聊天面板布局。"

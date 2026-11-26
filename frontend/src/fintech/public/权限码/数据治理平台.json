@@ -1,0 +1,1061 @@
+[
+  {
+    "plf": "",
+    "key": "project",
+    "title": "项目管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "gt",
+        "key": "project_org",
+        "title": "合作机构",
+        "type": "2"
+      },
+      {
+        "plf": "gt",
+        "key": "project_provider",
+        "title": "信托资金",
+        "type": "2"
+      },
+      {
+        "plf": "tj",
+        "key": "project_plan",
+        "title": "项目列表",
+        "type": "2",
+        "children": [
+          {
+            "plf": "tj",
+            "key": "project_plan_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "project_plan_detail",
+            "title": "详情",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "project_plan_save",
+            "title": "新增/编辑",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "project_plan_rule",
+            "title": "配置规则",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "project_plan_import",
+            "title": "批量导入项目",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "project_plan_cost",
+            "title": "批量导入费用",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "tj",
+    "key": "approval",
+    "title": "审批管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "tj",
+        "key": "approval_rules",
+        "title": "规则管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "tj",
+            "key": "approval_rules_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "approval_rules_detail",
+            "title": "详情",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "approval_rules_save",
+            "title": "新增/编辑",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "tj",
+        "key": "approval_rulesRecord",
+        "title": "规则检验记录",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "tj",
+    "key": "finance",
+    "title": "账务管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "tj",
+        "key": "finance_lenders",
+        "title": "放款合约明细查询",
+        "type": "2"
+      },
+      {
+        "plf": "tj",
+        "key": "finance_repayment",
+        "title": "还款合约明细查询",
+        "type": "2"
+      },
+      {
+        "plf": "tj",
+        "key": "finance_daily",
+        "title": "日终合约明细查询",
+        "type": "2",
+        "children": [
+          {
+            "plf": "tj",
+            "key": "finance_daily_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "finance_daily_9ele",
+            "title": "9要素",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "tj",
+        "key": "finance_disbursement",
+        "title": "支用明细查询",
+        "type": "2"
+      },
+      {
+        "plf": "tj",
+        "key": "finance_transfer",
+        "title": "资产转让明细查询",
+        "type": "2"
+      },
+      {
+        "plf": "tj",
+        "key": "finance_blacklist",
+        "title": "黑名单查询",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "assets",
+    "title": "资产管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "assets_personal",
+        "title": "客户信息",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "assets_personal_list",
+            "title": "客户列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "assets_personal_info",
+            "title": "客户详情",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "assets_loan",
+        "title": "借据清单",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "assets_loan_info",
+            "title": "借据详情",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "assets_loan_detail",
+            "title": "放款明细",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "assets_loan_repay",
+            "title": "还款明细",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "assets_loan_transfer",
+            "title": "转让明细",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "assets_loan_transaction",
+            "title": "放款交易",
+            "type": "3"
+          },
+          {
+            "plf": "gt",
+            "key": "assets_loan_situation",
+            "title": "在贷情况",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "assets_liquidation",
+        "title": "转让清单",
+        "type": "2"
+      },
+      {
+        "plf": "tj",
+        "key": "assets_merchant",
+        "title": "商户信息",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "tj",
+    "key": "credit",
+    "title": "授信管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "tj",
+        "key": "credit_customer",
+        "title": "客户查询",
+        "type": "2"
+      },
+      {
+        "plf": "tj",
+        "key": "credit_apply",
+        "title": "申请进件",
+        "type": "2",
+        "children": [
+          {
+            "plf": "tj",
+            "key": "credit_apply_list",
+            "title": "列表查询",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "credit_apply_detail",
+            "title": "进件详情",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "credit_apply_basic",
+            "title": "基础信息请求",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "credit_apply_suggest",
+            "title": "建议信息请求",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "tj",
+        "key": "credit_quota",
+        "title": "额度查询",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "fund",
+    "title": "资金管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "fund_loan",
+        "title": "放款交易",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "fund_repay",
+        "title": "还款明细",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "fund_trans",
+        "title": "支用明细",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "fund_withdrawal",
+        "title": "还款流水",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "fund_bank",
+        "title": "网商交易",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "fund_eft",
+        "title": "同业户回款",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "tj",
+    "key": "monitor",
+    "title": "业务监控",
+    "type": "1",
+    "children": [
+      {
+        "plf": "tj",
+        "key": "monitor_credit",
+        "title": "授信维度",
+        "type": "2"
+      },
+      {
+        "plf": "tj",
+        "key": "monitor_decision",
+        "title": "支用维度",
+        "type": "2"
+      },
+      {
+        "plf": "tj",
+        "key": "monitor_loan",
+        "title": "放款维度",
+        "type": "2"
+      },
+      {
+        "plf": "tj",
+        "key": "monitor_assets",
+        "title": "不合格资产",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "tj",
+    "key": "statistics",
+    "title": "统计报表",
+    "type": "1",
+    "children": [
+      {
+        "plf": "tj",
+        "key": "statistics_daily",
+        "title": "日报表",
+        "type": "2",
+        "children": [
+          {
+            "plf": "tj",
+            "key": "statistics_daily_overall",
+            "title": "总体信息",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "statistics_daily_monitor",
+            "title": "业务监控表",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "tj",
+        "key": "statistics_property",
+        "title": "资产月报",
+        "type": "2",
+        "children": [
+          {
+            "plf": "tj",
+            "key": "statistics_property_period",
+            "title": "期间表",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "statistics_property_allocat",
+            "title": "资产分布",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "tj",
+        "key": "statistics_credit",
+        "title": "授信月报",
+        "type": "2",
+        "children": [
+          {
+            "plf": "tj",
+            "key": "statistics_credit_five",
+            "title": "客户五级分类",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "statistics_credit_index",
+            "title": "授信指标",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "statistics_credit_distribution",
+            "title": "授信分布",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "statistics_credit_activeCustomer",
+            "title": "活跃客户数",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "ast",
+    "title": "运营管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "gt",
+        "key": "ast_report",
+        "title": "统计报表",
+        "type": "2"
+      },
+      {
+        "plf": "gt",
+        "key": "ast_ovd",
+        "title": "逾期率监控",
+        "type": "2"
+      },
+      {
+        "plf": "gt",
+        "key": "ast_reconciliation",
+        "title": "对账管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "gt",
+            "key": "ast_reconciliation_list",
+            "title": "对账列表",
+            "type": "3"
+          },
+          {
+            "plf": "gt",
+            "key": "ast_reconciliation_export",
+            "title": "对账导出",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "gt",
+        "key": "ast_blacklist",
+        "title": "黑名单",
+        "type": "2"
+      },
+      {
+        "plf": "gt",
+        "key": "ast_lender",
+        "title": "客户信息转换",
+        "type": "2"
+      },
+      {
+        "plf": "gt",
+        "key": "ast_retrieval",
+        "title": "合同下载",
+        "type": "2"
+      },
+      {
+        "plf": "gt",
+        "key": "ast_userNum",
+        "title": "客户数统计",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "ast_vintage",
+        "title": "Vintage",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "ast_vintage_overdue",
+            "title": "逾期率",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "ast_vintage_static",
+            "title": "静态违约率",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "ast_vintage_repay",
+            "title": "早偿率",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "ast_dynamic",
+        "title": "动态分析",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "ast_dynamic_migration",
+            "title": "迁徙率",
+            "type": "3"
+          },
+          {
+            "plf": "gt",
+            "key": "ast_dynamic_weighted",
+            "title": "加权平均期限",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "ast_dynamic_repayRate",
+            "title": "早偿率",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "ast_dynamic_cycle",
+            "title": "循环指标",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "ast_dynamic_repayLoss",
+            "title": "早偿损益",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "ast_dynamic_overdue",
+            "title": "动态违约率",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "tj",
+        "key": "ast_loan",
+        "title": "借据维度",
+        "type": "2",
+        "children": [
+          {
+            "plf": "tj",
+            "key": "ast_loan_five",
+            "title": "五级分类",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "ast_loan_overdue",
+            "title": "逾期借据分布",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "ast_loan_multi",
+            "title": "多维度分布",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "ast_loan_rate",
+            "title": "比率统计",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "tj",
+        "key": "ast_customer",
+        "title": "客户维度",
+        "type": "2",
+        "children": [
+          {
+            "plf": "tj",
+            "key": "ast_customer_five",
+            "title": "五级分类",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "ast_customer_user",
+            "title": "用户各类分布",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "gt",
+        "key": "ast_monitor",
+        "title": "在贷监控",
+        "type": "2",
+        "children": [
+          {
+            "plf": "gt",
+            "key": "ast_monitor_pool",
+            "title": "信托计划人数",
+            "type": "3"
+          },
+          {
+            "plf": "gt",
+            "key": "ast_monitor_user",
+            "title": "超20万用户余额",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "tj",
+        "key": "ast_bs",
+        "title": "资产负债",
+        "type": "2",
+        "children": [
+          {
+            "plf": "tj",
+            "key": "ast_bs_valuation",
+            "title": "估值",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "ast_bs_paid",
+            "title": "已付费用",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "tj",
+        "key": "ast_mom",
+        "title": "月环比指标",
+        "type": "2"
+      },
+      {
+        "plf": "tj",
+        "key": "statistics_credit_acct",
+        "title": "收款账户类别",
+        "type": "2"
+      },
+      {
+        "plf": "tj",
+        "key": "ast_overdueLoans",
+        "title": "逾期在贷分析",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "tj",
+    "key": "ys",
+    "title": "银数数据",
+    "type": "1",
+    "children": [
+      {
+        "plf": "tj",
+        "key": "ys_dynamic",
+        "title": "动态分析",
+        "type": "2",
+        "children": [
+          {
+            "plf": "tj",
+            "key": "ys_dynamic_rolling",
+            "title": "滚动率",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "ys_dynamic_migration",
+            "title": "迁徙率",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "ys_dynamic_overdue",
+            "title": "动态违约率",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "ys_dynamic_recoveryPrincipal",
+            "title": "违约回收统计",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "tj",
+        "key": "ys_vintage",
+        "title": "Vintage",
+        "type": "2",
+        "children": [
+          {
+            "plf": "tj",
+            "key": "ys_vintage_overdue",
+            "title": "逾期率",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "ys_vintage_static",
+            "title": "静态违约率",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "ys_vintage_repay",
+            "title": "早偿率",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "tj",
+        "key": "ys_overdueLoans",
+        "title": "逾期在贷分析",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "tj",
+    "key": "scope",
+    "title": "维度管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "tj",
+        "key": "scope_index",
+        "title": "指标维度",
+        "type": "2",
+        "children": [
+          {
+            "plf": "tj",
+            "key": "scope_index_list",
+            "title": "指标列表",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "scope_index_add",
+            "title": "新增指标",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "scope_index_edit",
+            "title": "编辑指标",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "tj",
+    "key": "risk",
+    "title": "风险指标",
+    "type": "1",
+    "children": [
+      {
+        "plf": "tj",
+        "key": "risk_quota",
+        "title": "额度使用率",
+        "type": "2"
+      },
+      {
+        "plf": "tj",
+        "key": "risk_credit",
+        "title": "信贷综合信息",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "gt",
+    "key": "data_masking",
+    "title": "非脱敏权限",
+    "type": "1"
+  },
+  {
+    "plf": "tj",
+    "key": "investor",
+    "title": "投资人",
+    "type": "1"
+  },
+  {
+    "plf": "",
+    "key": "system",
+    "title": "系统管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "mgr",
+        "title": "用户管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "mgr_page",
+            "title": "用户列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_add",
+            "title": "新增用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_edit",
+            "title": "编辑用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_del",
+            "title": "删除用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_reset",
+            "title": "重置用户密码",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_disable",
+            "title": "停用用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_enable",
+            "title": "启用用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_detail",
+            "title": "查看用户",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "mgr_data",
+            "title": "数据权限",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "dept",
+        "title": "部门管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "dept_page",
+            "title": "部门列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_add",
+            "title": "新增部门",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_edit",
+            "title": "编辑部门",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_del",
+            "title": "删除部门",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_detail",
+            "title": "查看部门",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "role",
+        "title": "角色管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "role_page",
+            "title": "角色列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_add",
+            "title": "新增角色",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_edit",
+            "title": "编辑角色",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_del",
+            "title": "删除角色",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_detail",
+            "title": "查看角色",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "dict",
+        "title": "字典管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "dict_list",
+            "title": "字典列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_list_detail",
+            "title": "编辑配置项",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_add",
+            "title": "新增字段",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_edit",
+            "title": "编辑字典",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_del",
+            "title": "删除字典",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_disable",
+            "title": "停用字典",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_enable",
+            "title": "启用字典",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "tj",
+        "key": "ticket",
+        "title": "工单管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "tj",
+            "key": "ticket_apply",
+            "title": "我的申请",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "ticket_todo",
+            "title": "我的待办",
+            "type": "3"
+          },
+          {
+            "plf": "tj",
+            "key": "ticket_history",
+            "title": "历史工单",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  }
+]
+

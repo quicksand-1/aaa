@@ -1,0 +1,26 @@
+node_modules/
+run/
+logs/
+storage/
+# tsc 根级编译产物（npm run tsc 会重新生成）
+app.js
+knexfile.js
+.env
+.env.*
+!.env.example
+app/**/*.js
+config/**/*.js
+test/**/*.js
+database/**/*.js
+scripts/**/*.js
+!scripts/backup-sqlite.js
+!scripts/clean-js.js
+!scripts/prepare-test-db.js
+!scripts/reconcile-migrations.js
+*.js.map
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+# egg-ts-helper 生成
+typings/app
+typings/config

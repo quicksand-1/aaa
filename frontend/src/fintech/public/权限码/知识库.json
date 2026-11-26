@@ -1,0 +1,485 @@
+[
+  {
+    "plf": "",
+    "key": "manage",
+    "title": "后台管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "manage_1",
+        "title": "流转规则",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "manage_1_1",
+            "title": "转译层",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_1_2",
+            "title": "raw层",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_1_3",
+            "title": "卡片层",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_1_4",
+            "title": "审计规则层",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "manage_2",
+        "title": "流转结果",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "manage_2_1",
+            "title": "原材料结果",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_2_2",
+            "title": "转译层结果",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_2_3",
+            "title": "raw层结果",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_2_4",
+            "title": "卡片层结果",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_2_5",
+            "title": "审计规则层结果",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_2_6",
+            "title": "知识图谱",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "manage_3",
+        "title": "业务辞典",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "manage_3_1",
+            "title": "分词配置",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_3_2",
+            "title": "黑名单",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_3_3",
+            "title": "脱敏配置",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "manage_4",
+        "title": "消费规则",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "manage_4_1",
+            "title": "问题转写",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_4_2",
+            "title": "向量索引",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_4_3",
+            "title": "召回规则",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_4_4",
+            "title": "权重与排序",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_4_5",
+            "title": "回答管理",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_4_6",
+            "title": "参数预览",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "manage_5",
+        "title": "流转任务",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "manage_6",
+        "title": "模型配置",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "manage_6_1",
+            "title": "模型参数",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_6_2",
+            "title": "知识库问答",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "manage_7",
+        "title": "智能体选择",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "manage_7_1",
+            "title": "知识库智能体",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_7_2",
+            "title": "全局智能体",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_7_3",
+            "title": "智能体技能",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_7_4",
+            "title": "知识库MCP服务",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "manage_7_5",
+            "title": "SKILL范围配置",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "manage_8",
+        "title": "数据接入配置",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "manage_8_1",
+            "title": "Dataset Skill",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "system",
+    "title": "账户管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "mgr",
+        "title": "用户管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "mgr_page",
+            "title": "用户列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_add",
+            "title": "新增用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_edit",
+            "title": "编辑用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_del",
+            "title": "删除用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_reset",
+            "title": "重置用户密码",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_disable",
+            "title": "停用用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_enable",
+            "title": "启用用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_detail",
+            "title": "查看用户",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "dept",
+        "title": "部门管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "dept_page",
+            "title": "部门列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_add",
+            "title": "新增部门",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_edit",
+            "title": "编辑部门",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_del",
+            "title": "删除部门",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_detail",
+            "title": "查看部门",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "role",
+        "title": "角色管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "role_page",
+            "title": "角色列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_add",
+            "title": "新增角色",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_edit",
+            "title": "编辑角色",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_del",
+            "title": "删除角色",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_detail",
+            "title": "查看角色",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "llm",
+    "title": "模型管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "llm_1",
+        "title": "全局问答",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "llm_2",
+        "title": "大模型管理",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "llm_3",
+        "title": "大模型调用记录",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "llm_4",
+        "title": "模型用量统计",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "config",
+    "title": "知识库配置",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "config_1",
+        "title": "知识库列表",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "config_2",
+        "title": "新建知识库",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "config_3",
+        "title": "新建团队知识库",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "agents",
+    "title": "智能体配置",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "agents_1",
+        "title": "全局智能体",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "agents_2",
+        "title": "全局智能体技能",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "agents_3",
+        "title": "系统 MCP 服务",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "flowrules",
+    "title": "全局流转规则配置",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "flowrules_1",
+        "title": "转译层默认规则",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "flowrules_2",
+        "title": "raw 层默认规则",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "personalNote",
+    "title": "个人笔记本",
+    "type": "1"
+  }
+]
+

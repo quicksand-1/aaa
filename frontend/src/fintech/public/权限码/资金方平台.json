@@ -1,0 +1,757 @@
+[
+  {
+    "plf": "wm",
+    "key": "sampling",
+    "title": "资产抽样",
+    "type": "1",
+    "children": [
+      {
+        "plf": "wm",
+        "key": "sampling_page",
+        "title": "抽样列表",
+        "type": "2"
+      },
+      {
+        "plf": "wm",
+        "key": "sampling_add",
+        "title": "新增抽样",
+        "type": "2"
+      },
+      {
+        "plf": "wm",
+        "key": "sampling_detail",
+        "title": "查看抽样",
+        "type": "2"
+      },
+      {
+        "plf": "wm",
+        "key": "sampling_template",
+        "title": "抽样模版",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "wm",
+    "key": "projects",
+    "title": "项目管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "wm",
+        "key": "projects_page",
+        "title": "项目列表",
+        "type": "2"
+      },
+      {
+        "plf": "wm",
+        "key": "projects_detail",
+        "title": "项目详情",
+        "type": "2"
+      },
+      {
+        "plf": "wm",
+        "key": "projects_daily",
+        "title": "资产清单",
+        "type": "2"
+      },
+      {
+        "plf": "wm",
+        "key": "projects_trans",
+        "title": "历史变动",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "wm",
+    "key": "assetManagement",
+    "title": "资产监测",
+    "type": "1",
+    "children": [
+      {
+        "plf": "wm",
+        "key": "assetManagement_index",
+        "title": "资产指标详情",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "wm",
+    "key": "indicators",
+    "title": "监控指标",
+    "type": "1",
+    "children": [
+      {
+        "plf": "wm",
+        "key": "indicators_setting",
+        "title": "指标配置管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "wm",
+            "key": "indicators_setting_page",
+            "title": "指标配置列表",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "indicators_setting_detail",
+            "title": "指标详情",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "indicators_setting_enable",
+            "title": "启用指标",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "indicators_setting_disable",
+            "title": "停用指标",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "indicators_setting_add",
+            "title": "新增指标",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "indicators_setting_edit",
+            "title": "修改指标",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "indicators_setting_del",
+            "title": "删除指标",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "wm",
+        "key": "indicators_base",
+        "title": "基础指标",
+        "type": "2",
+        "children": [
+          {
+            "plf": "wm",
+            "key": "indicators_base_page",
+            "title": "基础指标列表",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "indicators_base_edit",
+            "title": "添加观察指标",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "indicators_base_detail",
+            "title": "基础指标详情",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "wm",
+        "key": "indicators_complex",
+        "title": "加工类指标",
+        "type": "2",
+        "children": [
+          {
+            "plf": "wm",
+            "key": "indicators_complex_page",
+            "title": "加工类指标列表",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "wm",
+    "key": "monitor",
+    "title": "监控预警",
+    "type": "1",
+    "children": [
+      {
+        "plf": "wm",
+        "key": "monitor_page",
+        "title": "当前预警",
+        "type": "2"
+      },
+      {
+        "plf": "wm",
+        "key": "monitor_detail",
+        "title": "预警详情",
+        "type": "2"
+      },
+      {
+        "plf": "wm",
+        "key": "monitor_setting",
+        "title": "预警规则配置",
+        "type": "2",
+        "children": [
+          {
+            "plf": "wm",
+            "key": "monitor_setting_page",
+            "title": "预警规则列表",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "monitor_setting_add",
+            "title": "新增预警规则",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "monitor_setting_edit",
+            "title": "编辑预警规则",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "monitor_setting_del",
+            "title": "删除规则",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "monitor_setting_enable",
+            "title": "启用规则",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "monitor_setting_disable",
+            "title": "停用规则",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "wm",
+    "key": "report",
+    "title": "报告管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "wm",
+        "key": "report_create",
+        "title": "智能报告生成",
+        "type": "2"
+      },
+      {
+        "plf": "wm",
+        "key": "report_draft",
+        "title": "报告草稿管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "wm",
+            "key": "report_draft_page",
+            "title": "报告草稿列表",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "report_draft_submit",
+            "title": "提交报告草稿",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "report_draft_del",
+            "title": "废弃报告草稿",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "report_draft_detail",
+            "title": "报告草稿详情",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "wm",
+        "key": "report_disclosure",
+        "title": "已披露报告",
+        "type": "2",
+        "children": [
+          {
+            "plf": "wm",
+            "key": "report_disclosure_page",
+            "title": "已披露报告列表",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "report_disclosure_detail",
+            "title": "已披露报告详情",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "report_disclosure_download",
+            "title": "已披露报告下载",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "wm",
+        "key": "report_template",
+        "title": "报告模板管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "wm",
+            "key": "report_template_page",
+            "title": "报告模板列表",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "report_template_add",
+            "title": "新增报告模板",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "report_template_edit",
+            "title": "编辑报告模板",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "report_template_del",
+            "title": "删除报告模板",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "report_template_detail",
+            "title": "报告模板详情",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "wm",
+    "key": "datadistribute",
+    "title": "资管文件下载",
+    "type": "1",
+    "children": [
+      {
+        "plf": "wm",
+        "key": "datadistribute_page",
+        "title": "资管文件查询",
+        "type": "2"
+      },
+      {
+        "plf": "wm",
+        "key": "datadistribute_download",
+        "title": "下载文件",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "assetLens",
+    "title": "资产透镜",
+    "type": "1",
+    "children": [
+      {
+        "plf": "wm",
+        "key": "assetLens_features",
+        "title": "特征集",
+        "type": "2",
+        "children": [
+          {
+            "plf": "wm",
+            "key": "assetLens_features_setDate",
+            "title": "业务日期",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "assetLens_features_list",
+            "title": "查询列表",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "basic",
+    "title": "基础设置",
+    "type": "1",
+    "children": [
+      {
+        "plf": "wm",
+        "key": "basic_sampling",
+        "title": "资产抽样",
+        "type": "2"
+      },
+      {
+        "plf": "wm",
+        "key": "basic_datadistribute",
+        "title": "资管文件下载",
+        "type": "2"
+      },
+      {
+        "plf": "wm",
+        "key": "basic_datadistributePackage",
+        "title": "项目组查询",
+        "type": "2"
+      },
+      {
+        "plf": "tj",
+        "key": "basic_assetLens_forecast",
+        "title": "还款预测",
+        "type": "2"
+      },
+      {
+        "plf": "tj",
+        "key": "basic_assetLens_netrisk",
+        "title": "净值明细",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "system",
+    "title": "系统管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "mgr",
+        "title": "用户管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "mgr_page",
+            "title": "用户列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_add",
+            "title": "新增用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_edit",
+            "title": "编辑用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_del",
+            "title": "删除用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_reset",
+            "title": "重置用户密码",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_disable",
+            "title": "停用用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_enable",
+            "title": "启用用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_detail",
+            "title": "查看用户",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "mgr_data",
+            "title": "数据权限",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "dept",
+        "title": "部门管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "dept_page",
+            "title": "部门列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_add",
+            "title": "新增部门",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_edit",
+            "title": "编辑部门",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_del",
+            "title": "删除部门",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_detail",
+            "title": "查看部门",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "role",
+        "title": "角色管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "role_page",
+            "title": "角色列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_add",
+            "title": "新增角色",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_edit",
+            "title": "编辑角色",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_del",
+            "title": "删除角色",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_detail",
+            "title": "查看角色",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "dict",
+        "title": "字典管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "dict_list",
+            "title": "字典列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_list_detail",
+            "title": "编辑配置项",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_add",
+            "title": "新增字段",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_edit",
+            "title": "编辑字典",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_del",
+            "title": "删除字典",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_disable",
+            "title": "停用字典",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_enable",
+            "title": "启用字典",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "wm",
+        "key": "org_client",
+        "title": "参与方管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "wm",
+            "key": "org_client_page",
+            "title": "参与方列表",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "org_client_add",
+            "title": "添加参与方",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "org_client_edit",
+            "title": "编辑参与方",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "org_client_detail",
+            "title": "查看参与方",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "wm",
+        "key": "package_group",
+        "title": "项目组管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "wm",
+            "key": "package_group_page",
+            "title": "项目组列表",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "package_group_add",
+            "title": "新增项目组",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "package_group_edit",
+            "title": "编辑项目组",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "package_group_del",
+            "title": "删除项目组",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "wm",
+        "key": "system_external",
+        "title": "外部项目管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "wm",
+            "key": "system_external_add",
+            "title": "项目同步",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "system_external_page",
+            "title": "项目列表",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "system_external_edit",
+            "title": "项目修改",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "wm",
+        "key": "ticket",
+        "title": "工单管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "wm",
+            "key": "ticket_apply",
+            "title": "我的申请",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "ticket_todo",
+            "title": "我的待办",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "ticket_history",
+            "title": "历史工单",
+            "type": "3"
+          },
+          {
+            "plf": "wm",
+            "key": "ticket_workflow",
+            "title": "审批配置",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  }
+]
+

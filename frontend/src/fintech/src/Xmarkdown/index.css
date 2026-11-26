@@ -1,0 +1,15 @@
+.x-markdown-code-block {
+  margin: var(--margin-pre);
+}
+
+.x-markdown-code-block:first-child {
+  margin-top: 0;
+}
+
+.x-markdown-code-block:last-child {
+  margin-bottom: 0;
+}
+
+.x-markdown-code-block > pre {
+  margin: 0;
+}

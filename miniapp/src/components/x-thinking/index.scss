@@ -1,0 +1,45 @@
+.x-thinking {
+  margin-bottom: 16px;
+  padding: 14px 16px;
+  border: 1px solid #dbeafe;
+  border-radius: 14px;
+  background: #f8fbff;
+}
+
+.x-thinking__toggle {
+  display: flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.x-thinking__label {
+  color: #64748b;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.x-thinking__action {
+  color: #94a3b8;
+  font-size: 34px;
+  line-height: 1;
+  transform: rotate(-90deg);
+  transition: transform 180ms ease;
+}
+
+.x-thinking__action.is-expanded {
+  transform: rotate(90deg);
+}
+
+.x-thinking__content {
+  display: block;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #e2e8f0;
+  color: #475569;
+  font-size: 24px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  word-break: break-word;
+}

@@ -1,0 +1,138 @@
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  padding: 32px;
+}
+
+.profile-card__avatar {
+  display: flex;
+  width: 104px;
+  height: 104px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 28px;
+  background: #eff6ff;
+  color: #2563eb;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.profile-card__body {
+  min-width: 0;
+  flex: 1;
+}
+
+.profile-card__name-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile-card__name {
+  overflow: hidden;
+  color: #0f172a;
+  font-size: 34px;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.profile-card__badge {
+  flex-shrink: 0;
+  padding: 7px 13px;
+  border-radius: 10px;
+  background: #dbeafe;
+  color: #1677ff;
+  font-size: 19px;
+}
+
+.profile-card__account,
+.profile-card__role {
+  display: block;
+  margin-top: 9px;
+  overflow: hidden;
+  color: #94a3b8;
+  font-size: 23px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.profile-actions {
+  overflow: hidden;
+}
+
+.profile-action {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 28px;
+}
+
+.profile-action + .profile-action {
+  border-top: 1px solid #f1f5f9;
+}
+
+.profile-action.is-muted .profile-action__mark {
+  background: #f8fafc;
+  color: #94a3b8;
+}
+
+.profile-action__mark {
+  display: flex;
+  width: 68px;
+  height: 68px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  background: #f1f5f9;
+  color: #475569;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.profile-action__body {
+  display: flex;
+  min-width: 0;
+  flex: 1;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.profile-action__label {
+  color: #1e293b;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.profile-action__description {
+  color: #94a3b8;
+  font-size: 22px;
+}
+
+.profile-action__arrow {
+  color: #cbd5e1;
+  font-size: 44px;
+  line-height: 1;
+}
+
+.profile-logout {
+  display: flex;
+  min-height: 92px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fee2e2;
+  border-radius: 22px;
+  background: #fff;
+  color: #ef4444;
+  font-size: 27px;
+  font-weight: 500;
+}

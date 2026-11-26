@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* 恢复 a 标签的默认样式 */
+  a {
+    color: var(--ant-color-link);
+  }
+}
+
+#root {
+  .ant-page-header .ant-page-header-heading {
+    display: none;
+  }
+
+  .ant-pro-page-container .ant-pro-page-container-warp-page-header {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .ant-pro-page-container-children-container {
+    padding: 8px;
+    cursor: pointer;
+  }
+
+  .ant-pro-global-header-logo img {
+    height: 32px;
+  }
+
+  .ant-page-header-has-breadcrumb {
+    padding-block-end: 8px;
+  }
+
+  .ant-page-header .ant-breadcrumb {
+    padding-block-start: 0;
+  }
+
+  /* 解决 select 内容无法复制的问题 */
+  .ant-select-selection-item {
+    user-select: text !important;
+  }
+}
+
+/* 深蓝侧栏：对齐 Ant Design 默认主题 */
+#root .ant-pro-sider-logo {
+  padding: 16px 8px 13px !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 9%) !important;
+}
+
+#root .ant-pro-sider-logo > a {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 9px;
+}
+
+#root .ant-pro-sider-logo > a > h1 {
+  margin: 0 !important;
+  color: #fff !important;
+}
+
+#root .ant-pro-sider .ant-menu-item,
+#root .ant-pro-sider .ant-menu-submenu-title {
+  font-size: 13px;
+}
+
+#root .ant-pro-sider .ant-menu-item-group-title {
+  margin: 13px 9px 5px !important;
+  color: #fff !important;
+  font-size: 9px !important;
+  letter-spacing: 1.2px;
+  opacity: 0.48;
+}
+
+#root .ant-pro-sider .ant-menu-item:not(.ant-menu-item-selected):hover,
+#root .ant-pro-sider .ant-menu-submenu-title:hover {
+  color: #fff !important;
+}
+
+#root
+  .ant-pro-sider
+  .ant-menu-item:not(.ant-menu-item-selected):hover
+  .ant-menu-title-content,
+#root .ant-pro-sider .ant-menu-item:not(.ant-menu-item-selected):hover a,
+#root .ant-pro-sider .ant-menu-submenu-title:hover .ant-menu-title-content,
+#root .ant-pro-sider .ant-menu-submenu-title:hover a {
+  color: #fff !important;
+}
+
+#root .ant-pro-sider .ant-menu-submenu-selected > .ant-menu-submenu-title,
+#root
+  .ant-pro-sider
+  .ant-menu-submenu-selected
+  > .ant-menu-submenu-title
+  .ant-menu-title-content,
+#root
+  .ant-pro-sider
+  .ant-menu-submenu-selected
+  > .ant-menu-submenu-title
+  .ant-menu-submenu-arrow,
+#root .ant-pro-sider .ant-menu-submenu-active > .ant-menu-submenu-title,
+#root
+  .ant-pro-sider
+  .ant-menu-submenu-active
+  > .ant-menu-submenu-title
+  .ant-menu-title-content,
+#root
+  .ant-pro-sider
+  .ant-menu-submenu-active
+  > .ant-menu-submenu-title
+  .ant-menu-submenu-arrow {
+  color: #fff !important;
+}
+
+/* 折叠后的二级菜单使用浅色浮层，避免深底弹层与页面内容混在一起 */
+.ant-menu-submenu-popup {
+  background: #fff !important;
+  backdrop-filter: none !important;
+}
+
+.ant-menu-submenu-popup .ant-menu-item,
+.ant-menu-submenu-popup .ant-menu-submenu-title {
+  color: #1f1f1f !important;
+}
+
+.ant-menu-submenu-popup .ant-menu-item:not(.ant-menu-item-selected):hover,
+.ant-menu-submenu-popup .ant-menu-submenu-title:hover {
+  color: #1f1f1f !important;
+  background: #f5f5f5 !important;
+}
+
+.ant-menu-submenu-popup .ant-menu-item-selected {
+  color: #1677ff !important;
+  background: #e6f4ff !important;
+}
+
+.mobile-shell {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mobile-scroll {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;
+  scrollbar-width: none;
+}
+
+.mobile-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* 移动端登录压缩表单间距，保证常见手机视口内一屏完成登录。 */
+@media (max-width: 767px) {
+  .login-form .ant-form-item {
+    margin-bottom: 14px;
+  }
+
+  .login-form .ant-form-item-label {
+    padding-bottom: 5px !important;
+  }
+}
+
+@media (max-width: 767px) and (max-height: 700px) {
+  .login-mobile-header {
+    padding-top: 0;
+    padding-bottom: 12px;
+  }
+
+  .login-card {
+    gap: 12px !important;
+    padding: 16px !important;
+  }
+
+  .login-form .ant-form-item {
+    margin-bottom: 10px;
+  }
+
+  .login-form .ant-form-item-label {
+    padding-bottom: 3px !important;
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "extends": "@eggjs/tsconfig",
+  "compilerOptions": {
+    "declaration": false,
+    "inlineSourceMap": true,
+    "inlineSources": true
+  },
+  "exclude": ["app/public", "app/web", "app/views", "node_modules", "dist"]
+}

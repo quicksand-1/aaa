@@ -1,0 +1,1160 @@
+[
+  {
+    "plf": "",
+    "key": "planOverview",
+    "title": "项目一览",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "overViewDetail",
+        "title": "项目一览查看",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "analyse",
+        "title": "项目分析",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "analyse_amt",
+            "title": "资金分析",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "analyse_ast",
+            "title": "资产分析",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "analyse_plan",
+            "title": "资金计划",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "planGroupProfit",
+        "title": "项目组收益率",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "product",
+    "title": "放款池管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "SpvPond",
+        "title": "放款池",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "loanRouteRule",
+        "title": "投放规则",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "loanRouteRuleDetail",
+            "title": "投放规则查看",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "addLoanRouteRule",
+            "title": "新增投放规则",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "editLoanRouteRule",
+            "title": "编辑投放规则",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "routeFailRecord",
+            "title": "投放失败记录",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "org_entity",
+        "title": "项目管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "org_entity_sel",
+            "title": "查看项目",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "org_entity_add",
+            "title": "新增项目",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "org_entity_edit",
+            "title": "编辑项目",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "entity_alloc",
+            "title": "查看分配计划",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "entity_alloc_add",
+            "title": "新增分配计划",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "entity_alloc_edit",
+            "title": "编辑分配计划",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "entity_alloc_del",
+            "title": "删除分配计划",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "entity_assigned_add",
+            "title": "新增分配方案",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "entity_assigned_save",
+            "title": "提交分配方案",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "entity_assigned_detail",
+            "title": "查看分配方案详情",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "entity_assigned_pay",
+            "title": "支付分配方案",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "spv_copy",
+            "title": "复制",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "product_admit",
+        "title": "产品管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "product_detail",
+            "title": "查看产品",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "product_add",
+            "title": "新增产品",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "product_edit",
+            "title": "编辑产品",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "spv_ast",
+        "title": "资产清单",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "spv_ast_list",
+            "title": "资产列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "spv_ast_info",
+            "title": "资产详情",
+            "type": "3"
+          },
+          {
+            "plf": "中粮",
+            "key": "spv_ast_repayment",
+            "title": "还款清单",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "plan",
+    "title": "承接池管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "screen",
+        "title": "筛选规则",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "screen_detail",
+            "title": "查看筛选规则",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "screen_add",
+            "title": "新增筛选规则",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "screen_edit",
+            "title": "编辑筛选规则",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "plan_page",
+        "title": "项目管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "plan_detail",
+            "title": "查看项目",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "plan_add",
+            "title": "新增项目",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "plan_edit",
+            "title": "编辑项目",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "plan_price_sel",
+            "title": "还款分润",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "plan_alloc",
+            "title": "查看分配计划",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "plan_alloc_add",
+            "title": "新增分配计划",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "plan_alloc_edit",
+            "title": "编辑分配计划",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "plan_alloc_del",
+            "title": "删除分配计划",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "plan_assigned_add",
+            "title": "新增分配方案",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "plan_assigned_save",
+            "title": "提交分配方案",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "plan_assigned_detail",
+            "title": "查看分配方案详情",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "plan_assigned_pay",
+            "title": "支付分配方案",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "auto_plan",
+            "title": "复制",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "plan_ast",
+        "title": "资产清单",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "plan_ast_detail",
+            "title": "资产列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "plan_ast_info",
+            "title": "资产详情",
+            "type": "3"
+          },
+          {
+            "plf": "中粮",
+            "key": "plan_ast_repayment",
+            "title": "还款清单",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "duration",
+    "title": "存续期管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "idleFundsConfig",
+        "title": "闲置资金管理",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "batch_alloc",
+        "title": "分配计划管理",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "AMC_plan",
+        "title": "代偿管理",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "AMC_plan_add",
+        "title": "新增代偿",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "AMC_ast",
+        "title": "资产管理",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "report_download",
+        "title": "报表下载",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "alloc_title_down_upload",
+        "title": "分配导出导入",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "transaction",
+    "title": "交易管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "astOrg",
+        "title": "通用配置",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "editAstOrgConfig",
+            "title": "编辑配置",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "solutionNode",
+            "title": "方案环节",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "addAolutionNode",
+            "title": "新增环节",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "arrangeSolutionNode",
+            "title": "编排环节",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "solutionNodeJob",
+            "title": "环节任务",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "solutionNodeInvalid",
+            "title": "环节置为无效",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "planTradeConfig",
+            "title": "交易拓展配置",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "orgExtendConfig",
+            "title": "机构任务配置",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "policy",
+        "title": "自动交易",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "policyAdd",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "policyEdit",
+            "title": "编辑",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "policyDetail",
+            "title": "预览(详情)",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "policyTrigger",
+            "title": "触发方案",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "policyCopy",
+            "title": "复制",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "policyClose",
+            "title": "关闭",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "policyDelete",
+            "title": "删除",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "solution",
+        "title": "策略交易",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "solutionAdd",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "solutionEdit",
+            "title": "编辑",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "solutionDetail",
+            "title": "预览(详情)",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "solutionTrigger",
+            "title": "触发方案",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "solutionCopy",
+            "title": "复制",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "solutionClose",
+            "title": "关闭",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "solutionDelete",
+            "title": "删除",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "buyback",
+        "title": "单笔手工交易",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "packetTrading",
+        "title": "封包交易",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "transferStrategy",
+        "title": "转让策略",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "paymentFlow",
+        "title": "支付流水",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "online_check_list",
+            "title": "线上结算清单",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "offline_check_list",
+            "title": "线下结算清单",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "offline_pay_list",
+            "title": "付款单提交",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "handlePayment",
+            "title": "线上支付操作",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "capitalOrder",
+            "title": "手工划款",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "paymentSplit",
+            "title": "支付拆单",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "transFlow",
+        "title": "转让流水",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "traded_ast_detail",
+        "title": "交易详情",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "ast_export",
+        "title": "资产导出",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "adjust_ast_price",
+        "title": "调整资产对价",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "operation",
+    "title": "运营工具管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "batch_alloc_config",
+        "title": "分配计划配置",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "planGroup",
+        "title": "项目组合",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "stage_drawamt",
+        "title": "账户资金管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "planAstSTS",
+            "title": "项目资金情况",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "palnAstLog",
+            "title": "资金处理流水",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "loanRouteOrder",
+            "title": "资金路由流水",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "planStageAdjust",
+            "title": "账面资金调整审批",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "planStageFrozen",
+            "title": "账户冻结调整审批",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "planStageAdjustNoApprove",
+            "title": "账面资金调整提交",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "frozen_rule",
+        "title": "冻结规则",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "acct_extend",
+        "title": "项目账户配置",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "accountInfo",
+            "title": "账户设置",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "accountEvent",
+            "title": "交易事件设置",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "job_extend",
+        "title": "系统任务管控",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "dataSync",
+        "title": "数据同步监控",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "work_order",
+    "title": "工单管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "apply",
+        "title": "我的申请",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "my",
+        "title": "我的代办",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "system",
+    "title": "系统管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "mgr",
+        "title": "用户管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "mgr_page",
+            "title": "用户列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_add",
+            "title": "新增用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_edit",
+            "title": "编辑用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_del",
+            "title": "删除用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_reset",
+            "title": "重置用户密码",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_disable",
+            "title": "停用用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_enable",
+            "title": "启用用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_detail",
+            "title": "查看用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_data",
+            "title": "数据权限",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "dept",
+        "title": "部门管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "dept_page",
+            "title": "部门列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_add",
+            "title": "新增部门",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_edit",
+            "title": "编辑部门",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_del",
+            "title": "删除部门",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_detail",
+            "title": "查看部门",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "role",
+        "title": "角色管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "role_page",
+            "title": "角色列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_add",
+            "title": "新增角色",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_edit",
+            "title": "编辑角色",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_del",
+            "title": "删除角色",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_detail",
+            "title": "查看角色",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "dict",
+        "title": "字典管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "dict_list",
+            "title": "字典列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_list_detail",
+            "title": "配置详情",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_add",
+            "title": "添加配置",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_edit",
+            "title": "编辑配置",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_del",
+            "title": "删除配置",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_disable",
+            "title": "停用配置",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_enable",
+            "title": "启用配置",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "org_client",
+        "title": "参与方管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "org_client_page",
+            "title": "参与方列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "org_client_add",
+            "title": "添加参与方",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "org_client_edit",
+            "title": "编辑参与方",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "org_client_del",
+            "title": "删除参与方",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "org_extend",
+            "title": "参与方拓展",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "org_client_detail",
+            "title": "查看参与方",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "holiday",
+        "title": "节假日管理",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "apitoken_mgr",
+        "title": "秘钥管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "apitoken_create",
+            "title": "创建API Token",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "apitoken_list",
+            "title": "查询API Token列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "apitoken_edit",
+            "title": "编辑API Token",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "apitoken_delete",
+            "title": "删除API Token",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "apitoken_status",
+            "title": "启停用API Token",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "apitoken_access_logs",
+            "title": "查询API Token调用日志",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "apitoken_scope_options",
+            "title": "查询API Token接口授权范围",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "apitoken_admin_mgr",
+        "title": "API Token全局管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "apitoken_admin_page",
+            "title": "查询全部用户API Token",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "apitoken_admin_detail",
+            "title": "回看API Token明文",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "apitoken_admin_create",
+            "title": "代颁发API Token",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "apitoken_admin_edit",
+            "title": "编辑用户API Token",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "apitoken_admin_status",
+            "title": "启停用户API Token",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "apitoken_admin_delete",
+            "title": "删除用户API Token",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "apitoken_admin_access_logs",
+            "title": "查询用户API Token调用日志",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "queryPlan",
+    "title": "项目查询",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "queryPlan_1",
+        "title": "项目一览",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "queryPlan_2",
+        "title": "资产清单",
+        "type": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+main {
+  max-width: 100% !important;
+}
+
+.dumi-default-previewer-desc > .markdown {
+  font-size: 14px;
+}
+
+.markdown blockquote {
+  padding: 4px 4px 4px 12px !important;
+}
+
+.markdown blockquote p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.markdown td {
+  font-size: 14px;
+}

@@ -1,0 +1,47 @@
+.fintech-header-changelog {
+  margin-inline-start: 15px;
+  padding-inline-start: 15px;
+  border-inline-start: 1px solid #d0d5d8;
+  font-size: 0;
+  line-height: 0;
+  text-decoration: none !important;
+  cursor: pointer;
+
+  > svg {
+    width: 16px;
+    height: 16px;
+    fill: #4f5866;
+    transition: fill 180ms ease;
+  }
+
+  &:hover > svg,
+  &[data-active] > svg {
+    fill: #9f6415;
+  }
+
+  &:focus-visible {
+    outline: 2px solid rgba(159, 100, 21, 0.35);
+    outline-offset: 4px;
+  }
+}
+
+[data-prefers-color='dark'] .fintech-header-changelog {
+  border-inline-start-color: #2f3032;
+
+  > svg {
+    fill: #a5a9b0;
+  }
+
+  &:hover > svg,
+  &[data-active] > svg {
+    fill: #c99a4b;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fintech-header-changelog {
+    > svg {
+      transition-duration: 0.01ms;
+    }
+  }
+}

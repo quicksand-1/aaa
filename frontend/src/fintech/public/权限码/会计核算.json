@@ -1,0 +1,1283 @@
+[
+  {
+    "plf": "",
+    "key": "operation",
+    "title": "运营管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "operation_allot",
+        "title": "收拨款",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "operation_allot_fir",
+            "title": "信保基金(缴纳/退回)",
+            "type": "3",
+            "children": [
+              {
+                "plf": "",
+                "key": "operation_allot_fir_page",
+                "title": "列表",
+                "type": "4"
+              },
+              {
+                "plf": "",
+                "key": "operation_allot_fir_action",
+                "title": "缴纳/退回",
+                "type": "4"
+              }
+            ]
+          },
+          {
+            "plf": "",
+            "key": "operation_allot_fie",
+            "title": "信保基金(收益)",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "operation_allot_die",
+            "title": "活期利息",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "operation_allot_fee",
+            "title": "缴费",
+            "type": "3",
+            "children": [
+              {
+                "plf": "",
+                "key": "operation_allot_fee_page",
+                "title": "列表",
+                "type": "4"
+              },
+              {
+                "plf": "",
+                "key": "operation_allot_fee_action",
+                "title": "缴费",
+                "type": "4"
+              }
+            ]
+          },
+          {
+            "plf": "",
+            "key": "operation_allot_tax",
+            "title": "缴税",
+            "type": "3",
+            "children": [
+              {
+                "plf": "",
+                "key": "operation_allot_tax_page",
+                "title": "列表",
+                "type": "4"
+              },
+              {
+                "plf": "",
+                "key": "operation_allot_tax_action",
+                "title": "缴税",
+                "type": "4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "operation_fulfill",
+        "title": "兑付登记",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "operation_fulfill_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "operation_fulfill_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "operation_fulfill_edit",
+            "title": "编辑",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "operation_todo",
+        "title": "待办事项",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "operation_todo_glitch",
+            "title": "差错预警",
+            "type": "3",
+            "children": [
+              {
+                "plf": "",
+                "key": "operation_todo_glitch_page",
+                "title": "列表",
+                "type": "4"
+              },
+              {
+                "plf": "",
+                "key": "operation_todo_glitch_action",
+                "title": "处理",
+                "type": "4"
+              }
+            ]
+          },
+          {
+            "plf": "",
+            "key": "operation_todo_mob",
+            "title": "账期预警",
+            "type": "3",
+            "children": [
+              {
+                "plf": "",
+                "key": "operation_todo_mob_page",
+                "title": "列表",
+                "type": "4"
+              },
+              {
+                "plf": "",
+                "key": "operation_todo_mob_action",
+                "title": "处理",
+                "type": "4"
+              }
+            ]
+          },
+          {
+            "plf": "",
+            "key": "operation_todo_bill",
+            "title": "对账预警",
+            "type": "3",
+            "children": [
+              {
+                "plf": "",
+                "key": "operation_todo_bill_page",
+                "title": "列表",
+                "type": "4"
+              },
+              {
+                "plf": "",
+                "key": "operation_todo_bill_action",
+                "title": "处理",
+                "type": "4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "operation_schedule",
+        "title": "调度设置",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "operation_schedule_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "operation_schedule_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "operation_schedule_edit",
+            "title": "编辑",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "operation_provision",
+        "title": "拨备配置",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "operation_provision_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "operation_provision_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "operation_provision_edit",
+            "title": "编辑",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "operation_provision_import",
+            "title": "导入",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "operation_global",
+        "title": "全局开关",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "operation_global_schedule",
+            "title": "调度控制",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "operation_bank",
+        "title": "银行流水",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "operation_bank_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "operation_bank_export",
+            "title": "导出",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "books",
+    "title": "账簿管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "books_ledger",
+        "title": "账套",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "books_ledger_ppage",
+            "title": "母账列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "books_ledger_spage",
+            "title": "子账列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "books_ledger_padd",
+            "title": "创建母账",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "books_ledger_bind",
+            "title": "关联母账",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "books_general",
+        "title": "总账",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "books_general_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "books_general_export",
+            "title": "导出",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "books_voucher",
+        "title": "凭证明细账",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "books_account",
+        "title": "账户明细账",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "books_statements",
+        "title": "报表查询",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "books_statements_page",
+            "title": "列表",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "books_manual",
+        "title": "手工账",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "books_manual_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "books_manual_leakage",
+            "title": "差账记账",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "books_manual_red",
+            "title": "红冲记账",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "books_manual_blue",
+            "title": "蓝补记账",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "identify",
+    "title": "识账管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "identify_bank",
+        "title": "银行流水",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "identify_bank_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "identify_bank_run",
+            "title": "重新识别",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "reconciliation",
+    "title": "识账设置",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "reconciliation_br",
+        "title": "识账模版",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "reconciliation_br_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "reconciliation_br_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "reconciliation_br_edit",
+            "title": "编辑",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "reconciliation_op",
+        "title": "识账规则",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "reconciliation_op_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "reconciliation_op_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "reconciliation_op_edit",
+            "title": "编辑",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "reconciliation_bs",
+        "title": "业务范围表",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "reconciliation_bs_page",
+            "title": "列表",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "statements",
+    "title": "报表设置",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "statements_quota",
+        "title": "指标定义",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "statements_quota_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "statements_quota_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "statements_quota_edit",
+            "title": "编辑",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "statements_form",
+        "title": "报表定义",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "statements_form_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "statements_form_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "statements_form_edit",
+            "title": "编辑",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "statements_temp",
+        "title": "报表模版",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "statements_temp_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "statements_temp_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "statements_temp_edit",
+            "title": "编辑",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "scheme",
+    "title": "核算方案",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "scheme_sj",
+        "title": "科目模版",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "scheme_sj_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "scheme_sj_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "scheme_sj_edit",
+            "title": "编辑",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "scheme_el",
+        "title": "记账模版",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "scheme_el_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "scheme_el_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "scheme_el_edit",
+            "title": "编辑",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "scheme_sa",
+        "title": "算账模版",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "scheme_sa_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "scheme_sa_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "scheme_sa_edit",
+            "title": "编辑",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "scheme_ct",
+        "title": "结账模版",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "scheme_ct_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "scheme_ct_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "scheme_ct_edit",
+            "title": "编辑",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "scheme_st",
+        "title": "方案配置",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "scheme_st_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "scheme_st_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "scheme_st_edit",
+            "title": "编辑",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "rules",
+    "title": "记账规则",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "rules_at",
+        "title": "记账账户",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "rules_at_account",
+            "title": "记账账户",
+            "type": "3",
+            "children": [
+              {
+                "plf": "",
+                "key": "rules_at_account_page",
+                "title": "列表",
+                "type": "4"
+              },
+              {
+                "plf": "",
+                "key": "rules_at_account_add",
+                "title": "新增",
+                "type": "4"
+              },
+              {
+                "plf": "",
+                "key": "rules_at_account_edit",
+                "title": "编辑",
+                "type": "4"
+              },
+              {
+                "plf": "",
+                "key": "rules_at_account_export",
+                "title": "导出",
+                "type": "4"
+              }
+            ]
+          },
+          {
+            "plf": "",
+            "key": "rules_at_atomic",
+            "title": "原子科目",
+            "type": "3",
+            "children": [
+              {
+                "plf": "",
+                "key": "rules_at_atomic_page",
+                "title": "列表",
+                "type": "4"
+              },
+              {
+                "plf": "",
+                "key": "rules_at_atomic_add",
+                "title": "新增",
+                "type": "4"
+              },
+              {
+                "plf": "",
+                "key": "rules_at_atomic_edit",
+                "title": "编辑",
+                "type": "4"
+              },
+              {
+                "plf": "",
+                "key": "rules_at_atomic_export",
+                "title": "导出",
+                "type": "4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "rules_ca",
+        "title": "结账规则",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "rules_ca_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "rules_ca_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "rules_ca_edit",
+            "title": "编辑",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "rules_attr",
+        "title": "记账属性",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "rules_attr_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "rules_attr_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "rules_attr_edit",
+            "title": "编辑",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "rules_code",
+        "title": "核算事件码",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "rules_code_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "rules_code_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "rules_code_edit",
+            "title": "编辑",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "rules_event",
+        "title": "核算事件",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "rules_event_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "rules_event_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "rules_event_edit",
+            "title": "编辑",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "rules_event_switch",
+            "title": "启用",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "rules_event_rladd",
+            "title": "规则新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "rules_event_rledit",
+            "title": "规则编辑",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "basic",
+    "title": "基础设置",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "basic_env",
+        "title": "系统参数",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "basic_currency",
+        "title": "币种定义",
+        "type": "2"
+      },
+      {
+        "plf": "",
+        "key": "basic_biz",
+        "title": "业务参数",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "basic_biz_tax",
+            "title": "税费项",
+            "type": "3",
+            "children": [
+              {
+                "plf": "",
+                "key": "basic_biz_tax_page",
+                "title": "列表",
+                "type": "4"
+              },
+              {
+                "plf": "",
+                "key": "basic_biz_tax_add",
+                "title": "新增",
+                "type": "4"
+              },
+              {
+                "plf": "",
+                "key": "basic_biz_tax_edit",
+                "title": "编辑",
+                "type": "4"
+              }
+            ]
+          },
+          {
+            "plf": "",
+            "key": "basic_biz_provision",
+            "title": "拨备账户",
+            "type": "3",
+            "children": [
+              {
+                "plf": "",
+                "key": "basic_biz_provision_page",
+                "title": "列表",
+                "type": "4"
+              },
+              {
+                "plf": "",
+                "key": "basic_biz_provision_add",
+                "title": "新增",
+                "type": "4"
+              },
+              {
+                "plf": "",
+                "key": "basic_biz_provision_edit",
+                "title": "编辑",
+                "type": "4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "basic_event",
+        "title": "业务事件",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "basic_event_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "basic_event_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "basic_event_edit",
+            "title": "编辑",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "basic_subject",
+        "title": "会计科目",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "basic_subject_page",
+            "title": "列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "basic_subject_add",
+            "title": "新增",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "basic_subject_edit",
+            "title": "编辑",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "basic_subject_export",
+            "title": "导出",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "basic_subject_sub",
+            "title": "新增子科目",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plf": "",
+    "key": "system",
+    "title": "系统管理",
+    "type": "1",
+    "children": [
+      {
+        "plf": "",
+        "key": "mgr",
+        "title": "用户管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "mgr_page",
+            "title": "用户列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_add",
+            "title": "新增用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_edit",
+            "title": "编辑用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_del",
+            "title": "删除用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_reset",
+            "title": "重置用户密码",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_disable",
+            "title": "停用用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_enable",
+            "title": "启用用户",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "mgr_detail",
+            "title": "查看用户",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "dept",
+        "title": "部门管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "dept_page",
+            "title": "部门列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_add",
+            "title": "新增部门",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_edit",
+            "title": "编辑部门",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_del",
+            "title": "删除部门",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dept_detail",
+            "title": "查看部门",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "role",
+        "title": "角色管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "role_page",
+            "title": "角色列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_add",
+            "title": "新增角色",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_edit",
+            "title": "编辑角色",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_del",
+            "title": "删除角色",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "role_detail",
+            "title": "查看角色",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "dict",
+        "title": "字典管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "dict_list",
+            "title": "字典列表",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_list_detail",
+            "title": "编辑配置项",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_add",
+            "title": "新增字段",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_edit",
+            "title": "编辑字典",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_del",
+            "title": "删除字典",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_disable",
+            "title": "停用字典",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "dict_enable",
+            "title": "启用字典",
+            "type": "3"
+          }
+        ]
+      },
+      {
+        "plf": "",
+        "key": "ticket",
+        "title": "工单管理",
+        "type": "2",
+        "children": [
+          {
+            "plf": "",
+            "key": "ticket_apply",
+            "title": "我的申请",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "ticket_todo",
+            "title": "我的待办",
+            "type": "3"
+          },
+          {
+            "plf": "",
+            "key": "ticket_history",
+            "title": "历史工单",
+            "type": "3"
+          }
+        ]
+      }
+    ]
+  }
+]
+

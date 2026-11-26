@@ -1,0 +1,19 @@
+# 依赖目录
+node_modules/
+
+# 构建输出
+dist/
+build/
+public/
+.umi
+.umi-production
+
+# AI模块
+AGENTS.md
+CLAUDE.md
+.trae/*
+.opencode/*
+.claude/*
+.github/*
+.cursor/*
+.codex/*

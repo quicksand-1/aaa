@@ -1,0 +1,63 @@
+{
+  "name": "business-workbench-web",
+  "description": "通用业务工作台前端框架",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "analyze": "cross-env ANALYZE=1 ANALYZE_PORT=3000 max build",
+    "build": "cross-env max build",
+    "format": "prettier --cache --write .",
+    "postinstall": "max setup",
+    "lint-staged": "lint-staged",
+    "prepare": "husky install",
+    "setup": "max setup",
+    "start": "cross-env UMI_DEV_SERVER_COMPRESS=none max dev"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,tsx,ts,less,md,json}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "@ant-design/icons": "6.1.1",
+    "@ant-design/plots": "2.4.0",
+    "@ant-design/pro-components": "3.1.12-0",
+    "@ant-design/x": "2.5.0",
+    "@ant-design/x-markdown": "2.5.0",
+    "@ant-design/x-sdk": "2.5.0",
+    "@umijs/max": "4.6.40",
+    "antd": "6.6.8",
+    "antd-style": "3.6.2",
+    "archiver": "6.0.1",
+    "immutability-helper": "3.1.1",
+    "react-dnd": "16.0.1",
+    "react-dnd-html5-backend": "16.0.1",
+    "react-markdown": "10.1.0",
+    "remark-gfm": "4.0.1",
+    "sm-crypto": "0.3.13"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0",
+    "babel-plugin-dynamic-import-node": "^2.3.3",
+    "cross-env": "^7.0.3",
+    "husky": "8.0.3",
+    "lint-staged": "13.3.0",
+    "prettier": "2.8.8",
+    "prettier-plugin-organize-imports": "2.3.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "^3",
+    "typescript": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=16.19.1",
+    "npm": ">=8.19.3"
+  }
+}

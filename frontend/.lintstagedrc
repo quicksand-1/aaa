@@ -1,0 +1,15 @@
+{
+  "*.{md,json}": ["prettier --cache --write"],
+  "src/**/*.{js,jsx}": [
+    "max lint --fix --eslint-only",
+    "prettier --cache --write"
+  ],
+  "src/**/*.{css,less}": [
+    "max lint --fix --stylelint-only",
+    "prettier --cache --write"
+  ],
+  "src/**/*.ts?(x)": [
+    "max lint --fix --eslint-only",
+    "prettier --cache --parser=typescript --write"
+  ]
+}

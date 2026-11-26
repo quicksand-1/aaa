@@ -1,0 +1,35 @@
+.boot-page {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(145deg, #001529 0%, #0b57c8 100%);
+  color: #fff;
+}
+
+.boot-page__logo {
+  display: flex;
+  width: 112px;
+  height: 112px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 28px;
+  background: #fff;
+  color: #1677ff;
+  font-size: 46px;
+  font-weight: 900;
+  box-shadow: 0 24px 60px rgba(0, 21, 41, 0.35);
+}
+
+.boot-page__name {
+  margin-top: 30px;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.boot-page__hint {
+  margin-top: 14px;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 24px;
+}
