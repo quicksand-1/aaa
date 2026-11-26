@@ -63,6 +63,29 @@ describe('lib/market/parse', () => {
     assert.strictEqual(computeInflation(csv), 3);
   });
 
+  it('最新月缺失去年同月时退回上一个月算同比', () => {
+    const csv = [
+      'observation_date,CPIAUCSL',
+      '2025-09-01,300.0',
+      '2025-10-01,301.0',
+      '2026-09-01,306.0',
+      '2026-10-01,',
+    ].join('\n');
+
+    // 2026-10 无值，退到 2026-09 对 2025-09：306/300 - 1 = 2%
+    assert.strictEqual(computeInflation(csv), 2);
+  });
+
+  it('没有可用同比时返回 null', () => {
+    const csv = [
+      'observation_date,CPIAUCSL',
+      '2026-09-01,306.0',
+      '2026-10-01,309.0',
+    ].join('\n');
+
+    assert.strictEqual(computeInflation(csv), null);
+  });
+
   it('解析美债收益率 XML 的 entry', () => {
     const xml =
       '<feed><entry><m:properties><d:NEW_DATE m:type="Edm.DateTime">2026-11-24T00:00:00</d:NEW_DATE><d:BC_2YEAR m:type="Edm.Double">3.60</d:BC_2YEAR><d:BC_10YEAR m:type="Edm.Double">4.10</d:BC_10YEAR><d:BC_30YEAR m:type="Edm.Double">4.70</d:BC_30YEAR></m:properties></entry><entry><m:properties><d:NEW_DATE m:type="Edm.DateTime">2026-11-25T00:00:00</d:NEW_DATE><d:BC_2YEAR m:type="Edm.Double">3.58</d:BC_2YEAR><d:BC_10YEAR m:type="Edm.Double">4.12</d:BC_10YEAR><d:BC_30YEAR m:type="Edm.Double">4.72</d:BC_30YEAR></m:properties></entry></feed>';

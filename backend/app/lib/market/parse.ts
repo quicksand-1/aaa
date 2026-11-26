@@ -82,18 +82,19 @@ export function computeInflation(csv: string): number | null {
         row.value !== null && /^\d{4}-\d{2}-\d{2}$/.test(row.date),
     );
 
-  const latest = rows[rows.length - 1];
-  if (!latest) return null;
+  const byMonth = new Map<string, number>();
+  for (const row of rows) byMonth.set(row.date.slice(0, 7), row.value);
 
-  const [year, month] = latest.date.split('-').map(Number);
-  const lastYear = rows.find((row) => {
-    const [rowYear, rowMonth] = row.date.split('-').map(Number);
-    return rowYear === year - 1 && rowMonth === month;
-  });
+  // 上游偶有单月空值（例如 2025-10 缺失），最新月算不出同比就往前退一个月
+  for (let i = rows.length - 1; i >= 0; i--) {
+    const [year, month] = rows[i].date.split('-').map(Number);
+    const base = byMonth.get(
+      `${year - 1}-${String(month).padStart(2, '0')}`,
+    );
+    if (base) return Number(((rows[i].value / base - 1) * 100).toFixed(2));
+  }
 
-  return lastYear
-    ? Number(((latest.value / lastYear.value - 1) * 100).toFixed(2))
-    : null;
+  return null;
 }
 
 export interface TreasuryEntry {
