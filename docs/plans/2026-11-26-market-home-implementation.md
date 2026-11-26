@@ -1819,3 +1819,25 @@ Expected: 正常情况下 `failed_at` 与 `error` 全为 NULL；若某个源为 
 - `/welcome` 免登录可访问，页面不再依赖任何外部接口。
 - 旧 `src/pages/welcome` 已删除，无残留引用。
 - 后端 `npm test`、前端 `npm run build` 均通过。
+
+---
+
+## 实施记录与偏差
+
+实施于 2026-11-26，分支 `feat/market-home`。
+
+1. 抓取与解析放在 `backend/app/lib/market/`，不是 `app/service/market/`。Egg 的 loader 会把 `app/service` 下的每个文件当作 Service 类加载，纯函数模块放 `app/lib` 更合适；`app/service/market.ts` 只做薄封装。
+2. `MARKET_ORDER` 增加 `fiscal`。原计划漏了它，会导致「美债总量」被丢弃；正确顺序为 gold → treasury → fiscal → rates → crypto → sina。
+3. `computeInflation` 改为按月建索引并从最新月往前找去年同期。上游 CPI 存在空月（例如 2025-10 无值），按原 web3 的「只取最后一行 + 找去年同月」逻辑会静默返回 null，`inflation`/`realRate` 永远缺失。`cpiFrom` 同时从 13 个月放宽到 24 个月。
+4. `parseTreasuryXml` 输出按日期升序排序，不信任上游顺序。
+5. 行情接口不返回 `sources` 与 `nominalRate`：前者只落库写日志，后者页面未使用。
+6. 前端没有新建 `src/services/market.js`，请求就近写在 `src/pages/home/index.jsx`。`frontend/AGENTS.md` 规定单页面使用的请求就近调用，当前只有一个调用方。
+7. 首页顶部入口用 `history.push` 跳 `/admin`、`/login`，不做登录态判断，避免公开页多发一次会触发「请先登录」提示的请求。
+8. 前端代码未提交：`frontend/AGENTS.md` 禁止私自提交前端代码，等用户确认后再提交。
+
+### 本机环境问题（与本改动无关）
+
+`npm start`（`max dev`）在本机无法启动：umi 的 tailwind 插件用 `tailwindcss --watch` 生成 `src/.umi/plugin-tailwindcss/tailwind.css`，而本机 Node 22.22.0 / 25.8.0 下 `tailwindcss --watch` 会静默退出（`EXIT=0` 但不产出文件），5 秒后插件 `process.exit(1)`。已在 `git stash` 掉全部改动后复现，属于环境问题。
+
+验证改用构建产物：`npm run build` 成功，用临时静态服务器（SPA fallback + `/api` 反代 7001）加载 `dist`，再用 headless Chrome 抓取 `/welcome` 渲染结果，确认免登录可访问且 15 条行情、TGA、FedWatch、恐惧贪婪指数全部渲染。
+
