@@ -8,11 +8,11 @@ export default [
     routesSearch: false,
     copyright: false,
     key: 'default',
-    name: '业务工作台',
+    name: '一屏宏观',
     proxy: '/api',
     redirect: '/info',
     login: {
-      name: '业务工作台',
+      name: '一屏宏观',
       description: '通用业务管理平台',
     },
   },

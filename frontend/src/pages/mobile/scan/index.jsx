@@ -36,7 +36,7 @@ export default function MobileScanPage() {
   }, [location.search]);
 
   useEffect(() => {
-    document.title = '手机扫码登录 - 业务工作台';
+    document.title = '手机扫码登录 - 一屏宏观';
   }, []);
 
   return (
@@ -44,7 +44,7 @@ export default function MobileScanPage() {
       {status === 'loading' ? (
         <div className="flex flex-col items-center gap-4 text-center">
           <span className="grid h-14 w-14 place-items-center rounded-2xl bg-blue-600 text-xl font-black text-white shadow-lg shadow-blue-600/20">
-            业
+            屏
           </span>
           <Spin size="large" />
           <div>

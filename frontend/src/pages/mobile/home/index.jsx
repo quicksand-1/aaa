@@ -54,7 +54,7 @@ export default function MobileHomePage() {
               {user?.name ? `，${user.name}` : ''}
             </p>
             <h2 className="mb-0 mt-2 text-xl font-semibold">
-              欢迎使用业务工作台
+              欢迎使用一屏宏观
             </h2>
           </div>
           {access.admin ? (

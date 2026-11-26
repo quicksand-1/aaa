@@ -12,7 +12,7 @@ export function confirmLogout() {
     Modal.confirm({
       centered: true,
       title: '确认退出登录？',
-      content: '退出后需要重新登录才能继续使用业务工作台。',
+      content: '退出后需要重新登录才能继续使用一屏宏观。',
       okText: '退出登录',
       cancelText: '取消',
       okButtonProps: { danger: true },

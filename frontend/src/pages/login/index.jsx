@@ -26,7 +26,7 @@ const BrandMark = ({ logo, compact = false }) => (
         alt=""
       />
     ) : (
-      '业'
+      '屏'
     )}
   </span>
 );
@@ -45,7 +45,7 @@ export default function Login() {
   const [encode] = useCrypto('sm2');
   const { login = {}, copyright, name, logo, proxy } = platformStorage.get();
 
-  const brandName = login.name || name || '业务工作台';
+  const brandName = login.name || name || '一屏宏观';
   const brandDescription = login.description || '通用业务管理平台';
 
   useEffect(() => {

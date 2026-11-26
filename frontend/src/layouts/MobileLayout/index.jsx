@@ -29,7 +29,7 @@ export default function MobileLayout() {
   const isChatPage = location.pathname === '/m/chat';
   const pageTitle = isTabPage
     ? activeTab.label
-    : PAGE_TITLES[location.pathname] || '业务工作台';
+    : PAGE_TITLES[location.pathname] || '一屏宏观';
 
   useEffect(() => {
     document.title = `${pageTitle} - ${name}`;
